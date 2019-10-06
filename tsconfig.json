@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+    "pretty": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+	  "module": "es6",
+	  "target": "es5",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+	  "allowJs": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "webpack"
+  ]
+}

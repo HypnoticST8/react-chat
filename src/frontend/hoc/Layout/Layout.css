@@ -1,0 +1,30 @@
+@import 'normalize.css';
+
+/* open-sans-regular - latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans Regular'), local('OpenSans-Regular'),
+			url('../../assets/fonts/open-sans-v17-latin-regular.woff2') format('woff2'),
+			url('../../assets/fonts/open-sans-v17-latin-regular.woff') format('woff');
+}
+
+/* open-sans-700 - latin */
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'),
+			url('../../assets/fonts/open-sans-v17-latin-700.woff2') format('woff2'),
+			url('../../assets/fonts/open-sans-v17-latin-700.woff') format('woff');
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+html, body {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}

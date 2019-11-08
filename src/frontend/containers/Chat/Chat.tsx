@@ -46,6 +46,7 @@ interface IState {
   users: string[],
 }
 
+
 // TODO: add https://jsdoc.app/ style comments
 class Chat extends Component<object, IState> {
   state: IState = {

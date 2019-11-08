@@ -27,7 +27,7 @@ const covertUnixTime = (unixTime: number) => {
 }
 
 // TODO: scroll bar should be styled
-// TODO: add auto scroll to newest message when the messages overflow the message window
+// FIXME: add auto scroll to newest message when the messages overflow the message window
 const messages = (props: IProps) => {
 	const userNotConnected = (<p>Connect to server to receive new messages</p>)
 	const noMessagesOnServer = (<p>There are no messages on the server</p>)
